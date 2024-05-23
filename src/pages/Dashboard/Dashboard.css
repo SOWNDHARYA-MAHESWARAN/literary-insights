@@ -1,0 +1,119 @@
+.bg {
+    /* background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)); */
+    min-height: 100vh; 
+  }
+  
+  .back-btn {
+    transition: var(--transition);
+    color: var(--purple-color);
+    padding-left: 10px;
+  }
+  
+  .back-btn:hover {
+    color: purple;
+  }
+  
+  .back-btn span {
+    margin-left: 1rem;
+  }
+  
+  /* Table styles */
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .book-table th,
+  .book-table td {
+    border: 1px solid var(--grey-color);
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .book-table th {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .book-table th.sorted {
+    background-color: purple;
+  }
+  
+  .book-table tr:nth-child(even) {
+    background-color: var(--grey-color);
+  }
+  
+  .book-table tr:nth-child(odd) {
+    background-color: var(--white-color);
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin-right: 5px;
+  }
+  
+  .pagination a {
+    border: 1px solid var(--purple-color);
+    padding: 5px 10px;
+    background-color: var(--purple-color);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination a:hover {
+    background-color: purple;
+  }
+  
+  .pagination .active a {
+    background-color: purple;
+    color: white;
+  }
+  
+  .pagination .disabled a {
+    pointer-events: none;
+    background-color: #e9ecef;
+    color: #6c757d;
+    border-color: #ced4da;
+  }
+  
+  /* Flexbox alignment */
+  .flex1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+  }
+  
+  .per-page-select {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .per-page-select label {
+    margin-right: 10px; 
+  }
+  
+  /* Per-page select styles */
+  .per-page-select select {
+    border: 1px solid var(--purple-color);
+    background-color: var(--purple-color);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .per-page-select select:hover {
+    background-color: purple;
+  }
+  
+  
