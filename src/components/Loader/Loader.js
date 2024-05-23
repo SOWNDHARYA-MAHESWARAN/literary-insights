@@ -5,7 +5,7 @@ import "./Loader.css";
 const Loader = () => {
   return (
     <div className="loader flex flex-c">
-      <p className="loading-message">
+      <div className="loading-message">
         <span className="star">*</span>
         Initial loading may take 5 to 60 seconds due to API throttling.
         <br />
@@ -19,7 +19,7 @@ const Loader = () => {
         .
         <br />
         This can be optimized in a production environment.
-      </p>
+      </div>
       <img src={LoaderImg} alt="loader" />
       <p>Please wait for a few seconds</p>
     </div>
