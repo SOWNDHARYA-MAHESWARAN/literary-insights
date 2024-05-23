@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/literary-insights/static/css/main.871e21ac.css",
+    "main.js": "/literary-insights/static/js/main.ed5ebd67.js",
+    "static/media/Background.png": "/literary-insights/static/media/Background.cb10db7cb155df8935a2.png",
+    "static/media/Logo.jpeg": "/literary-insights/static/media/Logo.6f2b7e97ebf239ecb7a4.jpeg",
+    "static/media/About.jpg": "/literary-insights/static/media/About.b7521da541400a1eefdb.jpg",
+    "static/media/Login.avif": "/literary-insights/static/media/Login.9e4dc912e5a40f9543db.avif",
+    "index.html": "/literary-insights/index.html",
+    "static/media/Loader.svg": "/literary-insights/static/media/Loader.a3343f12420f3160e32c5317638f2198.svg",
+    "main.871e21ac.css.map": "/literary-insights/static/css/main.871e21ac.css.map",
+    "main.ed5ebd67.js.map": "/literary-insights/static/js/main.ed5ebd67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.871e21ac.css",
+    "static/js/main.ed5ebd67.js"
+  ]
+}
