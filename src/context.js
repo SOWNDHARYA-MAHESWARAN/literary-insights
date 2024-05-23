@@ -6,7 +6,7 @@ import React, {
   useCallback,
 } from "react";
 
-const URL = "http://openlibrary.org/search.json?title=";
+const URL = "https://openlibrary.org/search.json?title=";
 const AUTHOR_URL = "https://openlibrary.org/search/authors.json?q=";
 const AppContext = React.createContext();
 
