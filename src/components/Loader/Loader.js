@@ -13,6 +13,8 @@ const Loader = () => {
         <a
           href="https://www.loom.com/share/c6b5876f147f47d69b7b6798db39dc8a?sid=e473dccf-db30-444e-8696-bceb3c57c120"
           className="demo-link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           demo
         </a>
